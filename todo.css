@@ -1,0 +1,17 @@
+.tasks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  list-style-type: none;
+
+  .task {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+   
+  }
+}
